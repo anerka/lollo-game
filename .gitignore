@@ -1,3 +1,6 @@
 .DS_Store
 *.log
 node_modules/
+
+# Lamp-panel lives in own repo: github.com/anerka/home-lights
+home-lights/
