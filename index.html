@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lollo Adventures — Nivå 1</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="top">
+      <h1>Lollo Adventures</h1>
+      <p class="tag">Ett pussel i stil med NES-klassikern <em>Adventures of Lolo</em></p>
+    </header>
+    <div class="hud">
+      <span id="hud-hearts">Hjärtan: 0 / 2</span>
+      <span id="hud-gem">Juvel: nej</span>
+      <span id="hud-status"></span>
+    </div>
+    <canvas id="game" width="416" height="352" aria-label="Spelplan"></canvas>
+    <div class="help">
+      <p><strong>Styrning:</strong> piltangenter — ett steg per tryck. Tryck <kbd>R</kbd> för att börja om nivån.</p>
+      <p>Samla alla hjärtan → öppna kistan → ta juvelen → gå till den övre utgången.</p>
+    </div>
+  </div>
+  <script src="js/game.js"></script>
+</body>
+</html>
